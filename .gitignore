@@ -1,0 +1,21 @@
+# --- Node / client ---
+node_modules/
+client/dist/
+
+# --- Python / server ---
+__pycache__/
+*.py[cod]
+server/.venv/
+
+# --- Live data: never commit; use Settings -> Download backup ---
+server/data/
+data/
+
+# --- EXE build output (PyInstaller) ---
+build/
+dist/
+*.manifest
+
+# --- OS / editor noise ---
+Thumbs.db
+.DS_Store
